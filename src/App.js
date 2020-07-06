@@ -1,26 +1,56 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Route, Switch } from 'react-router-dom';
+
 import './App.css';
+import Navigation from './Navigation';
+import Homepage from './homepage';
+import Assassin from './Assassin';
+import Blademaster from './Blademaster';
+import Blaster from './Blaster';
+import Sorcerer from './Sorcerer';
+import Legendary from './Legendary';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    
+    <div className='app'>
+      <header>
+        <Navigation/>
       </header>
+      
+      <Switch>
+        <Route exact path = '/' component = {Homepage}/>
+        <Route exact path = '/assassin' component = {Assassin}/>
+        <Route exact path = '/blaster' component = {Blaster}/>
+        <Route exact path = '/sorcerer' component = {Sorcerer}/>
+        <Route exact path = '/blademaster' component = {Blademaster}/>
+        <Route exact path = '/legendary' component = {Legendary}/>
+
+
+      </Switch>
+
+      
+      
+
+      
+
+    
+    
+    
+    
+      
+    
+    
     </div>
-  );
+    
+
+  
+
+  
+  
+  )
+  
 }
 
 export default App;
