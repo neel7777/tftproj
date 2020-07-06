@@ -20,7 +20,7 @@ const Legendary = () => {
                 <p>
                     The idea with this comp is fairly straightforward. Gather an army of 2 star epics and legendaries, fraught with cc, damage and
                     tankiness, and steamroll the opposition. A completed comp looks something like wukong, gnar, fizz, ekko, aurelion sol, urgot, 
-                    shen, soraka blitz riven. This comp gives a tanky frontline, 4 chrono, and a massive cc chain in the form of wukong, gnar, fizz
+                    shen, blitz riven. This comp gives a tanky frontline, 4 chrono, and a massive cc chain in the form of wukong, gnar, fizz
                     and ekko ult. Meanwhile, sol puts up insane damage numbers and urgot will delete a champion every few seconds. As this comp is very
                     versatile and has many carries, there is alot of freedom in terms of item usage. I would recommend tanky items on sol and mana items
                     on urgot to witness true unbridled broken-ness. Enjoy!
