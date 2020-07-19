@@ -15,7 +15,7 @@ const Navigation = props => {
         <div>
           <Navbar color="dark" fixed='top' light expand="md" float='right'>
               <a href = '/'>
-          <Button className = 'navbut' size="lg" color="primary">Home</Button>
+          <Button className = 'navbut' size="lg" color="primary" position = 'right'>Home</Button>
               </a>
             
             

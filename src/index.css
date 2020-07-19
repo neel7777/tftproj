@@ -11,10 +11,15 @@ body {
   background-size: cover;
   background-position: 50% 50%;
   background-attachment: fixed;
+  max-width: 100%;
   
  
 }
-
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+  .someElement {
+  margin:1em
+  } 
+  }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -24,11 +29,18 @@ code {
  
   display: flex;
   justify-content: flex-end;
-  float: right;
+  align-items: right;
+  
+  
   
   
 }
+.navbut {
+  float: right;
+  display: flex;
+  justify-content: flex-end;
 
+}
 .main {
   display: flex;
   justify-content: center;
@@ -39,24 +51,19 @@ code {
   
 }
 /* .home {
-  height: 132vh;
-  background-image: url('img/tft.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
-  background-attachment: fixed;
+  width: 100%;
 } */
 .each {
   background-color: darkturquoise;
   color: white;
   border: 2px solid gold;
   display: flex;
-  
+  margin-left: 500px;
+  margin-right: 500px;
   justify-content: space-evenly;
   text-align: center;
   align-items: center;
-  margin-left: 500px;
-  margin-right: 500px;
+  
   margin-bottom: 50px;
   border-radius: 25px;
   text-decoration: none;
@@ -74,10 +81,13 @@ code {
   display: flex;
   color: white;
   align-items: center;
-  margin-left: 400px;
-  margin-right: 400px;
+  margin: 0 auto;
+  
+  
   justify-content: space-evenly;
   margin-bottom: 100px;
+  max-width: 70%;
+  flex-basis: auto;
 }
 
 p {
