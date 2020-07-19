@@ -14,11 +14,12 @@ const Navigation = props => {
     return (
         <div>
           <Navbar color="dark" fixed='top' light expand="md" float='right'>
+            <div></div>
               <a href = '/'>
           <Button className = 'navbut' size="lg" color="primary" position = 'right'>Home</Button>
               </a>
             
-            
+              
           </Navbar>
         </div>
       );
